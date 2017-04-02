@@ -1,0 +1,47 @@
+*[data-plugin="floating-label"] label, *[data-plugin="floating-label"] input, *[data-plugin="floating-label"] textarea {
+	position: relative;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+*[data-plugin="floating-label"] input, *[data-plugin="floating-label"] textarea {
+	font-size: 1em;
+	opacity: 0.7;
+	resize: none;
+	border-bottom: 1px solid #ddd;
+}
+
+*[data-plugin="floating-label"] label {
+	font-size: 0.9em;
+	opacity: 0.7;
+}
+
+*[data-plugin="floating-label"].input-got-focus label {
+	opacity: 1;
+	font-size: 1em;
+}
+
+*[data-plugin="floating-label"].input-got-focus input {
+	font-size: 1.1em;
+	opacity: 1;
+	-webkit-box-shadow: 0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow: 0 0 8px rgba(82,168,236,0.6);
+	box-shadow: 0 0 8px rgba(82,168,236,0.6);
+}
+
+*[data-plugin="floating-label"].input-got-focus textarea {
+	font-size: 1.2em;
+	opacity: 1;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+*[data-plugin="floating-label"] input, *[data-float="floating-label"] textarea, *[data-float="floating-label"] label {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
